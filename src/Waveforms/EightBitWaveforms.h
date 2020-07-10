@@ -72,7 +72,7 @@ enum class LFOWaveform
     Sawtooth,
     AsymmetricSine,
     InvertedAsymmetricSine,
-    DistoredSine,
+    //DistoredSine, (Not Supported Yet)
     CompoundSine,
     N_WAVEFORMS
 };
