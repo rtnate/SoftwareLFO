@@ -3,7 +3,9 @@ An Arduino-style Software LFO Library
 ## Usage
 ### Basics
 There are two main LFO classes provided by the library.  SoftwareLFO provides a basic sine wave. DeluxeLFO also provides switchable waveforms.  
+
 In order to use the LFO, one must create a function that calls tick() on the LFO at a consistant rate.  This tick rate can then be used to creaet an LFO using the class template.  
+
 For example to create a 1 Hz LFO:  
 ``` 
 #define TICK_RATE 1000 /* LFO will tick every 1000 milliseconds */
@@ -24,6 +26,7 @@ void loop()
     unsigned long now = millis();
     if (now - timer > TICK_RATE)
     {
+        timer = now;
         lfo.tick();
         unsigned long oscillatorValue = lfo.getValue();
         //Since LFO output is 24 bits and Analog Write is 10 bits
