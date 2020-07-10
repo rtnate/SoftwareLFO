@@ -1,0 +1,44 @@
+#######################################
+# Syntax Coloring Map SoftwareLFO
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SoftwareLFO			KEYWORD1
+DeluxeSoftwareLFO	KEYWORD1
+BaseLFO				KEYWORD1
+BaseDeluxeLFO		KEYWORD1
+LFOCalculator		KEYWORD1
+LFOWaveform			KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setIncrementValue		KEYWORD2
+tick					KEYWORD2
+reset					KEYWORD2
+getValue				KEYWORD2
+getCounter				KEYWORD2
+getIncrementValue		KEYWORD2
+setCounter				KEYWORD2
+isHalfway				KEYWORD2
+setPeriod				KEYWORD2
+setFrequency			KEYWORD2
+setWaveform				KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+Sine 					LITERAL1
+Triangle				LITERAL1
+Square					LITERAL1
+Sawtooth				LITERAL1
+AsymmetricSine			LITERAL1
+InvertedAsymmetricSine	LITERAL1
+DistoredSine			LITERAL1
+CompoundSine			LITERAL1
+N_WAVEFORM				LITERAL1
+CounterBitDepth			LITERAL1
+CountsPerPeriod			LITERAL1
