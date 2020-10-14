@@ -146,7 +146,7 @@ class BaseLFO
          * @return true If counter its more than halfway (wave output is positive)
          * @return false If not (wave output is negative)
          */
-        bool isHalfway() const { ( counter > (CountsPerPeriod / 2) ) ? true : false; };
+        bool isHalfway() const { return (( counter > (CountsPerPeriod / 2) ) ? true : false); };
 
     protected:
         /**
